@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: url('https://gifdb.com/images/high/nature-landscape-background-6tnnhmtb0yy1djui.gif');
+    background-size: cover;
+    min-height: 100dvh;
+    overflow: hidden;
+}
+
+#root {
+    height: 100dvh;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+p,
+label {
+    font-family: "Coming Soon", cursive;
+    margin: 0;
+}
