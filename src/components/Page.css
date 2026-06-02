@@ -284,6 +284,14 @@ label {
     border-radius: 10px;
 }
 
+.togetherWeAreStrong {
+    border-radius: 10px; 
+    margin-top: 10px;
+    width: 90%; 
+    align-self: center; 
+    box-shadow: 0 0 10px 3px #ffb625;
+}
+
 .end-cover {
     position: relative  
 }

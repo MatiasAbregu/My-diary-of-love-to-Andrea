@@ -244,15 +244,34 @@ function App() {
           <p></p>
         </Page>
         <Page number="18" pageClass={"page page-interior"}>
-          <p>
-            <i>Gracias Andrea por todo... Te amé, te amo y te amaré por toda una eternidad.</i> Nuestros corazones están enlazados por un lazo rojo del destino dirían los japoneses... El lazo del amor verdadero ☀️
+          <p style={{ marginTop: "10px" }}>
+            <i> &emsp;Gracias Andrea por todo... Te amé, te amo y te amaré por toda una eternidad.</i>
+            Nuestros corazones están enlazados por un lazo rojo del destino dirían los japoneses... El lazo del amor verdadero ☀️
           </p>
-          <img src={images.EndOfTheFirstMonth} style={{ width: "75%", alignSelf: "center", borderRadius: "20px" }} />
+          <audio src={audios.MillionDreams} controls style={{ alignSelf: "center", marginBottom: "10px" }}></audio>
+          <img src={images.EndOfTheFirstMonth} style={{ width: "68%", alignSelf: "center", borderRadius: "20px" }} />
         </Page>
-        <Page title="Continuará..." number="19" pageClass={"page page-interior"}>
-          <audio src={audios.MillionDreams} controls style={{ alignSelf: "center" }}></audio>
+
+        <Page title="Capítulo 6 ~ La adversidad" number="19" pageClass={"page page-interior"}>
+          <p>
+            &emsp;Este capítulo es un bonus porque ocurré antes del 8 de junio y quería escribirlo porque lo considero importante. <br />
+            &emsp;Hoy 30 de mayo de 2026 se presentaron muchas adversidades pero no a nivel pareja sino a nivel exterior. Y es muy probable que esto siga ocurriendo a lo largo de nuestros años porque la gente es asi, sin embargo, tene presente algo... <br />
+            &emsp;Y es que no voy a permitir que la adversidad nos gané, da igual quién nos tiré comentarios negativos voy a mover mar, cielo y tierra para que lo nuestro sea posible y el día de mañana, seamos una pareja "modelo a seguir". Porque así como mi bello ángel me enseño... <br /><br /><i><b>Hay una fuerza muy poderosa que puede con todo y es...</b></i>
+          </p>
+          <h2 style={{ textAlign: "center" }}>💫 El amor 👩🏻‍❤️‍👨🏻</h2>
         </Page>
         <Page number="20" pageClass={"page page-interior"}>
+          <p style={{ marginTop: "10px" }}>
+            &emsp;Así que amor, confia en mí asi como yo confio en vos. Da igual que adversidad se presente, da igual lo poderosa que sea, da igual que tan frecuente sea...
+            <br /><br />
+          </p>
+          <p style={{ textAlign: "center" }}><i><b>🌸 Lo superaremos juntos 🌼</b></i></p>
+          <img src={images.Promesa} className='togetherWeAreStrong' />
+        </Page>
+
+        <Page title="Continuará..." number="21" pageClass={"page page-interior"}>
+        </Page>
+        <Page number="22" pageClass={"page page-interior"}>
         </Page>
 
         <Page isCover={true} pageClass={"page book-cover"}>
