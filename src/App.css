@@ -1,13 +1,19 @@
 body {
     margin: 0;
-    background: url('https://gifdb.com/images/high/nature-landscape-background-6tnnhmtb0yy1djui.gif');
-    background-size: cover;
     min-height: 100dvh;
     overflow: hidden;
 }
 
 #root {
     height: 100dvh;
+}
+
+.menu-btn-container {
+    padding: 1dvw;
+    margin-bottom: 2dvh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .book-container {
@@ -17,16 +23,33 @@ body {
     height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: "Love Ya Like A Sister", cursive;
+.back-btn {
+    position: absolute;
+    background-color: white;
+    font-size: 2rem;
+    right: 0;
+    z-index: 1000;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    transition: color .3s ease;
 }
 
-p,
-label {
-    font-family: "Coming Soon", cursive;
-    margin: 0;
+.back-btn:hover {
+    color: #00bc2f;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffaaaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d1010;
 }

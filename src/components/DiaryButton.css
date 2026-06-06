@@ -1,0 +1,36 @@
+.btn-diary {
+    min-width: 250px;
+    width: 25%;
+    margin: 2% 2.5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn-diary img {
+    width: 100%;
+}
+
+.btn-diary label {
+    cursor: pointer;
+
+    position: absolute;
+    bottom: -5.5dvh;
+    right: -.7dvw;
+    z-index: 999;
+    font-family: "Love Ya Like A Sister", cursive;
+    width: 100%;
+
+    padding: 10px 5px;
+    background-color: #000000;
+    color: #ff53a6;
+
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 3px solid pink;
+    border-left: 3px solid pink;
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown;
+}
