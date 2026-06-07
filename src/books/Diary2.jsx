@@ -9,14 +9,17 @@ export const Diary2 = ({ setDiarySelected }) => {
     const bookRef = useRef();
     useEffect(() => {
         document.body.style.background =
-            "url('https://i.pinimg.com/originals/05/ff/48/05ff4840352d2562a9e8d8afb2da053d.gif')";
+            "url('/diary2.gif')";
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundAttachment = "fixed";
 
-        document.body.style.overflow = "hidden";
+        const rootElement = document.getElementById('root');
+        rootElement.style.overflow = "hidden";
+        rootElement.style.maxHeight = "initial";
         return () => {
-            document.body.style.overflowY = "auto";
+            rootElement.style.overflow = "auto";
+            rootElement.style.maxHeight = "100dvh";
         }
     }, []);
 

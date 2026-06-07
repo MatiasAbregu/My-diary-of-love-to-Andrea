@@ -9,14 +9,17 @@ export const Diary1 = ({ setDiarySelected }) => {
     const bookRef = useRef();
     useEffect(() => {
         document.body.style.background =
-            "url('https://gifdb.com/images/high/nature-landscape-background-6tnnhmtb0yy1djui.gif')";
+            "url('/diary1.gif')";
         document.body.style.backgroundSize = "cover";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundAttachment = "fixed";
 
-        document.body.style.overflow = "hidden";
+        const rootElement = document.getElementById('root');
+        rootElement.style.overflow = "hidden";
+        rootElement.style.maxHeight = "initial";
         return () => {
-            document.body.style.overflowY = "auto";
+            rootElement.style.overflow = "auto";
+            rootElement.style.maxHeight = "100dvh";
         }
     }, []);
 

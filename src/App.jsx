@@ -11,13 +11,14 @@ function App() {
 
   useEffect(() => {
     document.body.style.background =
-      "url('https://cdnb.artstation.com/p/assets/images/images/028/387/945/original/angie-sutherland-rsvp-asap-beach-ventuxio-export.gif?1594317998')";
+      "url('/main-menu.gif')";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundAttachment = "fixed";
     document.body.style.backgroundSize = "cover";
 
-    document.body.style.overflow = "auto";
-    document.body.style.maxHeight = "100dvh";
+    const rootElement = document.getElementById('root');
+    rootElement.style.overflow = "auto";
+    rootElement.style.maxHeight = "100dvh";
   }, [diarySelected])
 
   if (diarySelected == 1) {
