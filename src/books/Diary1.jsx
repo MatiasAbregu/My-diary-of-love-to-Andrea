@@ -25,7 +25,7 @@ export const Diary1 = ({ setDiarySelected }) => {
 
     return (
         <>
-            <span class="material-symbols-outlined back-btn" onClick={setDiarySelected}>
+            <span className="material-symbols-outlined back-btn" onClick={setDiarySelected}>
                 arrow_circle_left
             </span>
             <div className="diary1 book-container">
