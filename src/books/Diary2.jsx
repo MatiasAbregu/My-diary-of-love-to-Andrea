@@ -131,13 +131,43 @@ export const Diary2 = ({ setDiarySelected }) => {
                             <i>Gracias ❤️‍🩹</i>
                         </h3>
                         <p>
-                            &emsp; Gracias por prender tu cámara... Uno de mis deseos más grandes en esta relación es que pudiera conocerte en persona, no solo a través de una foto o un audio... Sino en vivo, cara a cara pero por x, circunstancias que vos y yo sabemos, aún no podemos. <br />
+                            &emsp; Gracias por prender tu cámara... Uno de mis deseos más grandes en esta relación es que pudiera conocerte en persona, no solo a través de una foto o un audio... Sino en vivo, cara a cara pero por "x" circunstancias, que vos y yo sabemos, aún no podemos...<br />
                             &emsp; Pero bien, eso no impide que no pueda "conocerte en persona", y acá entra la famosa videollamada que tanto tiempo te he solicitado y que por fin después de tanto estamos pudiendo hacer como pareja...
                         </p>
                     </Page>
                     <Page number="8" pageClass={"pageDiary2 page-interior"}>
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1aaZbO7PgQw?list=RD1aaZbO7PgQw" title="Boku no Kokoro no Yabai Yatsu Season 2 OP. Full | Boku wa... - Sub. Español『AMV』ϟ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/1aaZbO7PgQw" className='videocallLove'
+                            frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp; Verte no es simplemente "ver a mi novia", es ver a la persona que poco a poco me está ayudando a ver el mundo con colores de nuevo. Como dije en el diario anterior: a mi ángel. Y que pese yo aún no estar construido ni ser lo que aspiro a ser en la vida me escoge a mí, una persona que no podría explicar todo lo que me hace sentir con simplemente un "te amo".
+                        </p>
+                        <div className='winter-frame'>
+                            <img src={images.AGirlWhoLovesMe} className='GWLM' />
+                        </div>
                     </Page>
+
+                    <Page number="9" pageClass={"pageDiary2 page-interior"}>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp; Y aunque aún no haya visto tu cara en una videollamada (ya dentro de poco, yo sé que sí) estoy generando recuerdos sumamente preciosos y maravillosos que me hacen querer afrontar mis días a días con una sonrisa de oreja a oreja en el rostro. Te adjunto tu bella manita y un poco de tu hermosa frente (sí, sos hermosa deja de atacarte porque sino me enojo 😡):
+                        </p>
+                        <div className='videocallIMG-container'>
+                            <div className='winter-frame'>
+                                <img src={images.MyHand} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.HerHand} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.KoreanHeart} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.HerFingersHeart} />
+                            </div>
+                        </div>
+                    </Page>
+                    <Page number="10" pageClass={"pageDiary2 page-interior"}>
+                    </Page>
+
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>
                     </Page>
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>
