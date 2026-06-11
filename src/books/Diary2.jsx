@@ -114,18 +114,30 @@ export const Diary2 = ({ setDiarySelected }) => {
                         <p style={{ marginTop: "10px" }}>
                             &emsp; Pero por favor, no prometas cosas que no vas a cumplir, no juegues con mi pobre corazón, no me lo lastimes más porque de verdad que estás en una posición que me puede hacer mucho daño. Confío plenamente en vos y lo último que quisiera es tener que romper con vos porque implicaría romper también mi corazón por tener que recuperar un estado de "paz" que no era tampoco la gran paz en su momento...
                         </p>
-                        <h4 style={{ textAlign: "center", margin: "15px 0" }}><i>Por eso, porque te amo demasiado, depósito mi fe en que serás la persona que pueda dar el 110% como yo lo hago porque sé que sos capaz con tu brillo de alcanzarme el ritmo 🌟</i></h4>
+                        <h4 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>Por eso, porque te amo demasiado, depósito mi fe en que serás la persona que pueda dar el 110% como yo lo hago porque sé que sos capaz con tu brillo de alcanzarme el ritmo 🌟</i>
+                        </h4>
                         <div className='tryImgBox'>
                             <img src={images.SheTry1} />
                             <img src={images.SheTry2} />
                         </div>
                     </Page>
 
-                    <Page title="Continuará..." number="7" pageClass={"pageDiary2 page-interior"}>
+                    <Page title="Capítulo 8 ~ La videollamada" number="7" pageClass={"pageDiary2 page-interior"}>
+                        <p>
+                            &emsp; Es difícil comenzar a narrar esto porque es mucho lo que quiero expresar... Por lo que es muy probable que me tome un mínimo de 5 hojas jajajaja... Pero dejo de dar vueltas.
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>Gracias ❤️‍🩹</i>
+                        </h3>
+                        <p>
+                            &emsp; Gracias por prender tu cámara... Uno de mis deseos más grandes en esta relación es que pudiera conocerte en persona, no solo a través de una foto o un audio... Sino en vivo, cara a cara pero por x, circunstancias que vos y yo sabemos, aún no podemos. <br />
+                            &emsp; Pero bien, eso no impide que no pueda "conocerte en persona", y acá entra la famosa videollamada que tanto tiempo te he solicitado y que por fin después de tanto estamos pudiendo hacer como pareja...
+                        </p>
                     </Page>
                     <Page number="8" pageClass={"pageDiary2 page-interior"}>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1aaZbO7PgQw?list=RD1aaZbO7PgQw" title="Boku no Kokoro no Yabai Yatsu Season 2 OP. Full | Boku wa... - Sub. Español『AMV』ϟ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </Page>
-
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>
                     </Page>
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>
