@@ -123,6 +123,7 @@ export const Diary2 = ({ setDiarySelected }) => {
                         </div>
                     </Page>
 
+                    {/* CAPITULO 8 */}
                     <Page title="Capítulo 8 ~ La videollamada" number="7" pageClass={"pageDiary2 page-interior"}>
                         <p>
                             &emsp; Es difícil comenzar a narrar esto porque es mucho lo que quiero expresar... Por lo que es muy probable que me tome un mínimo de 5 hojas jajajaja... Pero dejo de dar vueltas.
@@ -137,8 +138,11 @@ export const Diary2 = ({ setDiarySelected }) => {
                     </Page>
                     <Page number="8" pageClass={"pageDiary2 page-interior"}>
                         <iframe src="https://www.youtube.com/embed/1aaZbO7PgQw" className='videocallLove'
-                            frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <p style={{ marginTop: "10px" }}>
+                            frameBorder="0" allow="autoplay; encrypted-media;" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        <label style={{  textAlign: "center", fontSize: ".85rem" }}>
+                            <i>(Esta canción te la dediqué ya pero me sirve para hacerte ver lo que siento yo)</i>
+                        </label>
+                        <p style={{ marginTop: "10px", zIndex: "999" }}>
                             &emsp; Verte no es simplemente "ver a mi novia", es ver a la persona que poco a poco me está ayudando a ver el mundo con colores de nuevo. Como dije en el diario anterior: a mi ángel. Y que pese yo aún no estar construido ni ser lo que aspiro a ser en la vida me escoge a mí, una persona que no podría explicar todo lo que me hace sentir con simplemente un "te amo".
                         </p>
                         <div className='winter-frame'>
@@ -166,6 +170,22 @@ export const Diary2 = ({ setDiarySelected }) => {
                         </div>
                     </Page>
                     <Page number="10" pageClass={"pageDiary2 page-interior"}>
+                        <p style={{ margin: "10px 0" }}>
+                            &emsp; En fin mi alma gemela... Es simplemente hermoso poder pasar tiempo con vos, realmente lo valoro mucho pero valoro aún más que no sea yo el único que sienta todo lo que siento... PD: Me hiciste llorar el día que me dijiste "gracias" de la nada, te amodio
+                        </p>
+                        <div className='thankfulImg'>
+                            <div className='winter-frame'>
+                                <img src={images.Thanks} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.SheIsThankful} />
+                            </div>
+                        </div>
+                    </Page>
+
+                    <Page title="9 ~ El conejo y la tortuga..." number="11" pageClass={"pageDiary2 page-interior"}>
+                    </Page>
+                    <Page number="12" pageClass={"pageDiary2 page-interior"}>
                     </Page>
 
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>

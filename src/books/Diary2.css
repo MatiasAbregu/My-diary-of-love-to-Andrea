@@ -271,6 +271,7 @@
     bottom: 28px;
     right: 1.8dvw;
     transform: rotateZ(-10deg);
+    opacity: .55;
 }
 
 .pageDiary2 .winter-frame:has(.GWLM)::after,
@@ -285,7 +286,10 @@
 }
 
 /* IMAGES OF OUR VIDEOCALLS */
-.pageDiary2 .videocallIMG-container {}
+.pageDiary2 .videocallIMG-container {
+    position: relative;
+    height: 100%;
+}
 
 .pageDiary2 .videocallIMG-container .winter-frame {
     width: 110px;
@@ -300,21 +304,47 @@
 
 .pageDiary2 .videocallIMG-container .winter-frame:nth-child(1) {
     margin-top: 10px;
-    left: 20px;
+    left: 0px;
 }
 
 .pageDiary2 .videocallIMG-container .winter-frame:nth-child(2) {
     margin-top: 10px;
-    left: 130px;
+    left: 110px;
 }
 
 .pageDiary2 .videocallIMG-container .winter-frame:nth-child(3) {
-    right: 45px;
+    right: 15px;
     transform: rotateZ(15deg);
 }
 
 .pageDiary2 .videocallIMG-container .winter-frame:nth-child(4) {
-    right: 120px;
-    bottom: 40px;
+    right: 85px;
+    bottom: 0;
     transform: rotateZ(-15deg);
+}
+
+/* Thankful videocalls */
+.pageDiary2 .thankfulIMG {
+    position: relative;
+    height: 100%;
+}
+
+.pageDiary2 .thankfulImg .winter-frame {
+    width: 300px;
+    height: 190px;
+}
+
+.pageDiary2 .thankfulImg .winter-frame img {
+    width: 95%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.pageDiary2 .thankfulImg .winter-frame:nth-child(1) img  {
+    height: 95%;
+}
+
+.pageDiary2 .thankfulImg .winter-frame:nth-child(2) {
+    right: 25px;
+    bottom: 40px;
 }

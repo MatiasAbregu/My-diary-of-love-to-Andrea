@@ -13,6 +13,8 @@ import HerHand from './imgs/HerHand.jpeg';
 import KoreanHeart from './imgs/KoreanHeart.jpeg';
 import MyHand from './imgs/MyHand.jpeg';
 import HerFingersHeart from './imgs/HerFingersHeart.jpeg';
+import Thanks from './imgs/Thanks.jpeg';
+import SheIsThankful from './imgs/SheIsThankful.jpeg';
 
 import BlackAndWhiteEmotion from './audios/BlackAndWhite.mp3'
 
@@ -31,7 +33,9 @@ export const images = {
     HerHand: HerHand,
     KoreanHeart: KoreanHeart,
     MyHand: MyHand,
-    HerFingersHeart: HerFingersHeart
+    HerFingersHeart: HerFingersHeart,
+    Thanks: Thanks,
+    SheIsThankful: SheIsThankful
 }
 
 export const audios = {
