@@ -139,7 +139,7 @@ export const Diary2 = ({ setDiarySelected }) => {
                     <Page number="8" pageClass={"pageDiary2 page-interior"}>
                         <iframe src="https://www.youtube.com/embed/1aaZbO7PgQw" className='videocallLove'
                             frameBorder="0" allow="autoplay; encrypted-media;" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                        <label style={{  textAlign: "center", fontSize: ".85rem" }}>
+                        <label style={{ textAlign: "center", fontSize: ".85rem" }}>
                             <i>(Esta canción te la dediqué ya pero me sirve para hacerte ver lo que siento yo)</i>
                         </label>
                         <p style={{ marginTop: "10px", zIndex: "999" }}>
@@ -184,8 +184,61 @@ export const Diary2 = ({ setDiarySelected }) => {
                     </Page>
 
                     <Page title="9 ~ El conejo y la tortuga..." number="11" pageClass={"pageDiary2 page-interior"}>
+                        <p>
+                            &emsp; Después de un buen tiempo... Retomo el diario que dije escribir cuando creyera que era necesario...  <br /> &emsp; Y acá me encuentro, para narrar 6 capítulos; pero primero, narrar el que tenía pendiente. Y es el del conejo y la tortuga, o más bien...
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>Yo 🐇 y vos 🐢</i>
+                        </h3>
+                        <audio src={audios.OneLove} controls style={{ alignSelf: "center" }} />
+                        <p>
+                            &emsp; Pensar que todo comenzó creyendo que yo era un tipo "rudo", la realidad es que no puede estar más alejado de eso y con el tiempo lo fuiste descubriendo. Diría mí mamá (tu suegra jajaja): "Vos sos un perro herido, no un mal tipo". Cansado de sufrir tanto levanté tantas barreras a mi alrededor para que nadie más pudiera hacerme daño o notar mis debilidades...
+                        </p>
                     </Page>
                     <Page number="12" pageClass={"pageDiary2 page-interior"}>
+                        <p style={{ margin: "10px 0" }}>
+                            &emsp; ¿Por qué? Porque tenía miedo de que me abandonarás o de qué te pudieras cansar... La gente se cansa rápido de mí, lo dije en su momento, y suele ser porque soy atosigante de vez en cuando. Pero no podía estar más equivocado porque llegó "Miss Tortuga" a romper con ese sesgo mío.
+                        </p>
+                        <div className='bunnyAndTurtle'>
+                            <div className='winter-frame'>
+                                <img src={images.Bunny} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.Turtle} />
+                            </div>
+                        </div>
+                    </Page>
+                    <Page number="13" pageClass={"pageDiary2 page-interior"}>
+                        <p style={{ margin: "10px 0" }}>
+                            &emsp; Como me dijo en el primer diario, las personas correctas se van a tomar el tiempo de conocerme porque creen que vale la pena el esfuerzo. Al final, descubrió que era una persona que sí le gusta estar en compañia de aquellos que él considera valiosos para su vida. <br /> &emsp;Ahora.... ¿Cómo es qué ella llega ser una "tortuga"? Adjunto evidencia 😃👍🏻
+                        </p>
+                        <div className='howSheBecameInATurtle'>
+                            <div className='winter-frame'>
+                                <img src={images.FirstTurtle} />
+                            </div>
+                            <div className='winter-frame'>
+                                <img src={images.SecondTurtle} />
+                            </div>
+                        </div>
+                    </Page>
+                    <Page number="14" pageClass={"pageDiary2 page-interior"}>
+                        <p style={{ margin: "10px 0" }}>
+                            &emsp; En fin, mi mujer más de una vez se olvida de mí y de lo que me gusta... Por eso es lenta como una tortuga mientras su pareja es veloz como un conejo ❤️. Aunque bueno, el esfuerzo y dedicación que pone en la relación es algo muy valioso que a veces se olvida cuanto lo valoro. <br /> &emsp;Ya vas a ver amor que es cuestión de tiempo para que, sea veloz como un conejito o lento como una tortuga, lleguemos a la meta juntos.
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>🐢 Porque lo que importa, no es la velocidad, sino que lleguemos juntos hasta el final 🐇</i>
+                        </h3>
+                        <div className='winter-frame thinkAbouTheOther'>
+                            <img src={images.TogetherThinkingAboutTheOther} style={{ width: "85%" }} />
+                        </div>
+                    </Page>
+                    <Page title="10 ~ El fondo..." number="15" pageClass={"pageDiary2 page-interior"}>
+                        <p>
+                            &emsp; Sin duda, este diario va a quedar para la anécdota de la cantidad de adversidades que han aparecido en este mes... Pero de la que vamos a hablar ahora creo que ha sido la más chocante o profunda... La que realmente nos ha forjado como pareja para que podamos ser más fuerte y entendernos muchísimo mejor. Quién dice que de la caída uno se levanta más fuerte, no podría tener más razón. O que hay que tocar fondo para poder saber hasta donde uno puede presionar tristemente...
+                        </p>
+                    </Page>
+                    <Page number="16" pageClass={"pageDiary2 page-interior"}>
+
                     </Page>
 
                     <Page isCover={true} pageClass={"pageDiary2 book-cover"}>
@@ -200,3 +253,10 @@ export const Diary2 = ({ setDiarySelected }) => {
         </>
     )
 }
+
+/* 
+El caballero antiheróe 
+Los acertijos 
+El rechazo (familia)
+La bella flor que duda de si 
+*/

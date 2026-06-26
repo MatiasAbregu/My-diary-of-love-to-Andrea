@@ -340,11 +340,73 @@
     border-radius: 10px;
 }
 
-.pageDiary2 .thankfulImg .winter-frame:nth-child(1) img  {
+.pageDiary2 .thankfulImg .winter-frame:nth-child(1) img {
     height: 95%;
 }
 
 .pageDiary2 .thankfulImg .winter-frame:nth-child(2) {
     right: 25px;
     bottom: 40px;
+}
+
+.pageDiary2 .bunnyAndTurtle,
+.pageDiary2 .howSheBecameInATurtle {
+    position: relative;
+    height: 100%;
+}
+
+.pageDiary2 .bunnyAndTurtle .winter-frame img {
+    width: 95%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.pageDiary2 .bunnyAndTurtle .winter-frame:nth-child(1) {
+    z-index: 3;
+}
+
+.pageDiary2 .bunnyAndTurtle .winter-frame:nth-child(2) {
+    right: 0px;
+    bottom: 30px;
+}
+
+.pageDiary2 .howSheBecameInATurtle .winter-frame {
+    width: 200px;
+    height: 210px;
+}
+
+.pageDiary2 .howSheBecameInATurtle .winter-frame:nth-child(1) {
+    width: 180px;
+}
+
+.pageDiary2 .howSheBecameInATurtle .winter-frame img {
+    height: 95%;
+    width: 95%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.pageDiary2 .howSheBecameInATurtle .winter-frame:nth-child(1) {
+    margin-top: 10px;
+    left: 10px;
+    transform: rotateZ(-8deg);
+}
+
+.pageDiary2 .howSheBecameInATurtle .winter-frame:nth-child(2) {
+    right: 10px;
+    bottom: 30px;
+    transform: rotateZ(8deg);
+}
+
+.pageDiary2 .thinkAbouTheOther {
+    position: relative;
+    width: 350px;
+    height: 220px;
+    align-self: center;
+}
+
+.pageDiary2 .thinkAbouTheOther img {
+    width: 100%;
+    border-radius: 10px;
 }

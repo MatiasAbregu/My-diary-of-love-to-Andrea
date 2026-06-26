@@ -15,8 +15,14 @@ import MyHand from './imgs/MyHand.jpeg';
 import HerFingersHeart from './imgs/HerFingersHeart.jpeg';
 import Thanks from './imgs/Thanks.jpeg';
 import SheIsThankful from './imgs/SheIsThankful.jpeg';
+import Bunny from './imgs/Bunny.jpeg';
+import Turtle from './imgs/MyLittleTurtle.png';
+import FirstTurtle from './imgs/FirstTurtle.jpeg';
+import SecondTurtle from './imgs/SecondTurtle.jpeg';
+import TogetherThinkingAboutTheOther from './imgs/TogetherThinkingAboutTheOther.jpeg';
 
 import BlackAndWhiteEmotion from './audios/BlackAndWhite.mp3'
+import OneLove from './audios/OneLove.mp3'
 
 export const images = {
     MyLove: MyLove,
@@ -35,11 +41,17 @@ export const images = {
     MyHand: MyHand,
     HerFingersHeart: HerFingersHeart,
     Thanks: Thanks,
-    SheIsThankful: SheIsThankful
+    SheIsThankful: SheIsThankful,
+    Bunny: Bunny,
+    Turtle: Turtle,
+    FirstTurtle: FirstTurtle,
+    SecondTurtle: SecondTurtle,
+    TogetherThinkingAboutTheOther: TogetherThinkingAboutTheOther
 }
 
 export const audios = {
-    BlackAndWhiteEmotion: BlackAndWhiteEmotion
+    BlackAndWhiteEmotion: BlackAndWhiteEmotion,
+    OneLove: OneLove
 }
 
 export const videos = {
