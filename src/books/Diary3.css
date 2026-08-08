@@ -1,0 +1,327 @@
+.Diary3 h1,
+.Diary3 h2,
+.Diary3 h3,
+.Diary3 h4,
+.Diary3 h5 {
+    font-family: "Love Ya Like A Sister", cursive;
+}
+
+.Diary3 p,
+.Diary3 label {
+    font-family: "Coming Soon", cursive;
+    margin: 0;
+}
+
+/**************************************************************/
+/************************ PAGES STYLE ************************/
+/************************************************************/
+
+.pageDiary3 {
+    background-color: #fdf6e2;
+    color: #333;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    user-select: none;
+}
+
+.pageDiary3 .page-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.pageDiary3 .page-content h2 {
+    margin: 10px 0;
+}
+
+.pageDiary3:hover {
+    cursor: grab;
+}
+
+.pageDiary3:active {
+    cursor: grabbing;
+}
+
+.pageDiary3 .page-footer {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.pageDiary3.book-cover {
+    background-color: #f03b89;
+    color: white;
+}
+
+.pageDiary3.book-cover.start .page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageDiary3 .book-cover.start label {
+    margin-top: auto;
+    font-size: .9rem;
+}
+
+.pageDiary3 .back-cover-text {
+    margin-top: auto;
+}
+
+.pageDiary3 .img-coverContainer {
+    margin: auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    pointer-events: none;
+}
+
+.pageDiary3 .img-cover {
+    width: 80%;
+    border-radius: 20px;
+    border: rgb(255, 255, 231) 2px solid;
+}
+
+.pageDiary3 .img-coverContainer::after {
+    content: '👑';
+    font-size: 1.8rem;
+    position: absolute;
+    right: 25px;
+    top: -10px;
+}
+
+.pageDiary3 .img-coverContainer::before {
+    content: '🏰';
+    font-size: 1.8rem;
+    position: absolute;
+    left: 25px;
+    bottom: -10px;
+}
+
+.pageDiary3 .imgFirstPage {
+    align-self: center;
+    width: 42%;
+    border-radius: calc(100% / 2);
+}
+
+.pageDiary3 .greetingsDiv,
+.pageDiary3 .myPrincess {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.pageDiary3 .greetingsDiv img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.pageDiary3 .myPrincess img {
+    margin-top: 6px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.pageDiary3 .audioHowIFallInLove,
+.pageDiary3 .audioAntiheroVsKnight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pageDiary3 label {
+    font-size: .9rem;
+    text-align: center;
+}
+
+.pageDiary3 .imgKnights {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 0 2px;
+}
+
+.pageDiary3 .imgKnights img {
+    border-radius: 8px;
+}
+
+.pageDiary3 .imgKnights div:first-child img {
+    width: 100%;
+}
+
+.pageDiary3 .imgKnights div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pageDiary3 .imgKnights div:last-child img {
+    width: 100%;
+}
+
+.pageDiary3 .imgGifts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pageDiary3 .containerGifts {
+    display: flex;
+    gap: 5px;
+}
+
+.pageDiary3 .imgGifts .containerGifts div {
+    width: 50%;
+}
+
+.pageDiary3 .imgGifts img,
+.pageDiary3 .imgGifts audio,
+.pageDiary3 .imgGifts video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pageDiary3 .imgGifts video {
+    height: 185px;
+}
+
+.pageDiary3 .text-poem {
+    text-align: center;
+}
+
+.pageDiary3 .divAngel {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid #8d5a2b;
+}
+
+.pageDiary3 .divAngel img {
+    height: 200px;
+    flex-grow: 1;
+    border: 1px solid #8d5a2b;
+}
+
+.pageDiary3 .funnyMoments11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pageDiary3 .funnyMoments11 div:first-child {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+.pageDiary3 .funnyMoments11 img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.pageDiary3 .funnyMoments11 img:last-child {
+    height: 80%;
+}
+
+.pageDiary3 .herShine {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.pageDiary3 .imgMutualCouple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.pageDiary3 .imgMutualCouple img {
+    width: 80%;
+    border: 4px solid #8d5a2b;
+}
+
+.pageDiary3 .togetherWeAreGreat {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pageDiary3 .togetherWeAreGreat img {
+    width: 65%;
+    border-radius: 10px;
+}
+
+.pageDiary3 .togetherWeAreGreat img:first-child {
+    align-self: flex-end;
+    border: 2px solid green;
+}
+
+.pageDiary3 .togetherWeAreGreat img:last-child {
+    border: 2px solid goldenrod;
+}
+
+.pageDiary3 .ImInLove {
+    display: flex;
+    margin: 10px 0;
+}
+
+.pageDiary3 .ImInLove img {
+    width: 50%;
+    border: 4px solid white;
+}
+
+.pageDiary3 .ImInLove img:last-child {
+    height: 50%;
+}
+
+.pageDiary3 .ourFirstMonth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pageDiary3 .ourFirstMonth img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pageDiary3 .togetherWeAreStrong {
+    border-radius: 10px; 
+    margin-top: 10px;
+    width: 90%; 
+    align-self: center; 
+    box-shadow: 0 0 10px 3px #ffb625;
+}
+
+.pageDiary3 .end-cover {
+    position: relative  
+}
+
+.pageDiary3 .end-cover img {
+    width: 50%;
+    position: absolute;
+    border: 4px solid white;
+}
+
+.pageDiary3 .end-cover img:last-child {
+    top: 40dvh;
+    right: 0;
+}

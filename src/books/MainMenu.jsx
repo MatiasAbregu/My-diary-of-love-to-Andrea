@@ -20,6 +20,8 @@ export const MainMenu = ({ setDiarySelected }) => {
         <article className='menu-btn-container'>
             <DiaryButton img={images.Diary1} title={"Diario 1 - Mi diario de recuerdos"} onclick={() => setDiarySelected(1)} />
             <DiaryButton img={images.Diary2} title={"Diario 2 - Mi diario de invierno"} onclick={() => setDiarySelected(2)} />
+            <DiaryButton img={images.Diary3} title={"Diario 3 - El diario de Matías y Andrea"} onclick={() => setDiarySelected(3)} />
+            <DiaryButton img={""} title={"Diario 4 - Mi diario esperanza"} onclick={() => setDiarySelected(4)} />
         </article>
     );
 }
