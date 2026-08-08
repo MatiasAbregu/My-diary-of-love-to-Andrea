@@ -65,33 +65,49 @@ export const Diary3 = ({ setDiarySelected }) => {
                     </Page>
 
                     {/* CAPITULO 1 */}
-                    <Page title="Capítulo 1 ~ El comienzo" number="2" pageClass={"pageDiary3 page-interior"}>
+                    <Page title="Capítulo 15 ~ La continuación de una bella historia de amor" number="2" pageClass={"pageDiary3 page-interior"}>
                         <p>
-                            &emsp;¿Quién diría que dos personas en la misma provincia podrían conocerse por una red social y caer tan perdidamente enamorados uno del otro? A veces, me hace pensar que el destino o Dios si existe, y que lindo que las cosas estén saliendo así pese que con anterioridad... Mi vida no fuera la más más hermosa.
-                        </p>
-                        <div className='greetingsDiv'>
-                            <img src={""} />
-                            <label>¡Qué comienzo jajajaja! Yo siendo raro como siempre</label>
-                        </div>
-                        <p style={{ marginTop: "10px" }}>
-                            &emsp;No podría estar más agradecido que aparezcas en mi vida Andrea, con una mano en el corazón lo digo.
+                            &emsp;¿Qué tal amor? Este diario es un poco más especial que los otros... No solo porque es LA MITAD DEL RECORRIDO sino que además hemos podido vernos múltiple veces a escondidas... Sí, nos hemos podido ver varias veces al fin. Lo que parecía un sueño por fin se hizo realidad y la verdad que este mes, cada segundo que pasé con vos, fue simplemente PRECIOSO. Cada foto, cada sonrisa nuestras, cada beso (porque sí, inclusive nos pudimos besar pero hey, no más spoilers).
+                            <br />
+                            &emsp;Te dejo nomás con esta fabulosa historia comenzando por...
                         </p>
                     </Page>
                     <Page number="3" pageClass={"pageDiary3 page-interior"}>
-                        <p style={{ marginTop: "10px" }}>
-                            &emsp;Si esto sigue así, podría decir fácilmente que sos el amor de mi vida, el amor que años y años esperé sufriendo en silencio porque pensé que jamás encontraría a una persona que me amé como lo estás haciendo vos; solo mi perrita Melba y perdón que sea insistente con el tema pero, como sabes, gracias a ella estoy vivo y es posible este romance. <br />
-                            &emsp;No voy a mentir cuando comence a desarrollar los sentimientos hacia vos pensé que no iban a ser correspondidos gracias a mi "gran" suerte... ¡Qué más! Que te cuente el audio que te mandé hace un tiempo jajsajsjas
-                        </p>
-                        <div className='audioHowIFallInLove'>
-                            <audio src={""} controls />
-                            <label>(Desistí con hacer mi propia etiqueta de audio... Llevo 2h y 30 min peleando acá, Dios JSDJA)</label>
-                        </div>
-                        <p style={{ marginTop: "10px" }}>
-                            &emsp; Pero en conclusión... Estamos juntos, correspondiste a mis sentimientos pese a mis dudas... Gracias 🌼
-                        </p>
                     </Page>
 
-                  
+                    <Page title="Capítulo 16 ~ La princesa ¡ANDREA!" number="4" pageClass={"pageDiary3 page-interior"}>
+                        <iframe src="https://www.youtube.com/embed/HLBYylAvz8Y?list=RDHLBYylAvz8Y" frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" className='andreaIntroduction' allowfullscreen></iframe>
+                    </Page>
+                    <Page number="5" pageClass={"pageDiary3 page-interior"}>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp;La mujer más bella del planeta Tierra es la primera en ser presentada en este diario y su nombre es ¡Andrea!
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>👸🏻 ¡La princesa angelical! 🏰</i>
+                        </h3>
+                        <div className='castle-frame andreaIntro'>
+                            <img src={images.AndreaHeart} />
+                            <img src={images.AndreaIntroduction} />
+                        </div>
+                    </Page>
+
+                    <Page title="Capítulo 17 ~ El príncipe ¡MATÍAS!" number="6" pageClass={"pageDiary3 page-interior"}>
+                        <iframe src="https://www.youtube.com/embed/SLJ_O9BsQTA?list=RDSLJ_O9BsQTA" frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" className='andreaIntroduction' allowfullscreen></iframe>               
+                    </Page>
+                    <Page number="7" pageClass={"pageDiary3 page-interior"}>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp;El hombre más increíble del planeta Tierra es el segundo en ser presentado en este diario y su nombre es ¡Matías!
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>👸🏻 ¡La princesa angelical! 🏰</i>
+                        </h3>
+                        <div className='castle-frame matiasIntro'>
+                            <img src={images.MatiasHeart} />
+                            <img src={images.MatiasIntroduction} />
+                        </div>
+                    </Page>
+
+
                     <Page title="Continuará..." number="21" pageClass={"pageDiary3 page-interior"}>
                     </Page>
                     <Page number="22" pageClass={"pageDiary3 page-interior"}>
