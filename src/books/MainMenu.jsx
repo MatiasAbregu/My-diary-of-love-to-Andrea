@@ -21,7 +21,9 @@ export const MainMenu = ({ setDiarySelected }) => {
             <DiaryButton img={images.Diary1} title={"Diario 1 - Mi diario de recuerdos"} onclick={() => setDiarySelected(1)} />
             <DiaryButton img={images.Diary2} title={"Diario 2 - Mi diario de invierno"} onclick={() => setDiarySelected(2)} />
             <DiaryButton img={images.Diary3} title={"Diario 3 - El diario de Matías y Andrea"} onclick={() => setDiarySelected(3)} />
-            <DiaryButton img={""} title={"Diario 4 - Mi diario color esperanza"} onclick={() => setDiarySelected(4)} />
+            <DiaryButton img={""} title={"Diario 4 - Diario esperanza"} onclick={() => setDiarySelected(4)} />
+            <DiaryButton img={""} title={"Diario 5 - Diario milagro"} onclick={() => setDiarySelected(5)} />
+            <DiaryButton img={""} title={"Diario 6 - Diario 6 meses"} onclick={() => setDiarySelected(6)} />
         </article>
     );
 }
