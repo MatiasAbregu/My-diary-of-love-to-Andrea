@@ -4,6 +4,7 @@ import { MainMenu } from './books/MainMenu';
 import { Diary1 } from './books/Diary1';
 import { Diary2 } from './books/Diary2';
 import { Diary3 } from './books/Diary3';
+import { Diary4 } from './books/Diary4';
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
   } else if (diarySelected == 3) {
     return <Diary3 setDiarySelected={() => setDiarySelected(0)} />;
   } else if (diarySelected == 4) {
-    //return <Diary4 setDiarySelected={() => setDiarySelected(0)} />;
+    return <Diary4 setDiarySelected={() => setDiarySelected(0)} />;
   }
 
   return <MainMenu setDiarySelected={setDiarySelected} />
