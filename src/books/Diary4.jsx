@@ -30,7 +30,7 @@ export const Diary4 = ({ setDiarySelected }) => {
             <span className="material-symbols-outlined back-btn" onClick={setDiarySelected}>
                 arrow_circle_left
             </span>
-            <div className="Diary3 book-container">
+            <div className="Diary4 book-container">
                 <HTMLPageFlip ref={bookRef}
                     width={450}
                     height={580}
@@ -46,32 +46,32 @@ export const Diary4 = ({ setDiarySelected }) => {
                     flippingTime={800}>
 
                     {/* PORTADA */}
-                    <Page title="☁️ Diario esperanza ⭐️" pageClass={"pageDiary3 book-cover start"}>
+                    <Page title="☁️ Diario esperanza ⭐️" pageClass={"pageDiary4 book-cover start"}>
                         <div className='img-coverContainer'>
                             <img src={images.Startcover} className='img-cover' />
                         </div>
                         <label style={{fontWeight: "700"}}><i>Con mucho amor, la persona que más te ama </i></label>
                     </Page>
-                    <Page isCover={true} pageClass={"pageDiary3 book-cover"}>
+                    <Page isCover={true} pageClass={"pageDiary4 book-cover"}>
                         <p className='back-cover-text'><i>¿Recuerdas la foto de la caratula? Es muy especial para mi porque representa como estaremos en noviembre ☀️</i></p>
                     </Page>
 
                     {/* INTRODUCCIÓN */}
-                    <Page title="~ Introducción ~" number="1" pageClass={"pageDiary3 page-interior"}>
+                    <Page title="~ Introducción ~" number="1" pageClass={"pageDiary4 page-interior"}>
                         <p>
                             &emsp;¡Hola amor! 
                         </p>
                         <img src={""} className='imgFirstPage' />
                     </Page>
 
-                    <Page title="Continuará..." number="21" pageClass={"pageDiary3 page-interior"}>
+                    <Page title="Continuará..." number="21" pageClass={"pageDiary4 page-interior"}>
                     </Page>
-                    <Page number="22" pageClass={"pageDiary3 page-interior"}>
+                    <Page number="22" pageClass={"pageDiary4 page-interior"}>
                     </Page>
 
-                    <Page isCover={true} pageClass={"pageDiary3 book-cover"}>
+                    <Page isCover={true} pageClass={"pageDiary4 book-cover"}>
                     </Page>
-                    <Page isCover={true} pageClass={"pageDiary3 book-cover"}>
+                    <Page isCover={true} pageClass={"pageDiary4 book-cover"}>
                         <div className='end-cover'>
                             <img src={""} />
                         </div>

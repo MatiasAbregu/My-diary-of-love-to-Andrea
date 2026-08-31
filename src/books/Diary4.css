@@ -1,13 +1,13 @@
-.Diary3 h1,
-.Diary3 h2,
-.Diary3 h3,
-.Diary3 h4,
-.Diary3 h5 {
+.Diary4 h1,
+.Diary4 h2,
+.Diary4 h3,
+.Diary4 h4,
+.Diary4 h5 {
     font-family: "Love Ya Like A Sister", cursive;
 }
 
-.Diary3 p,
-.Diary3 label {
+.Diary4 p,
+.Diary4 label {
     font-family: "Life Savers", cursive;
     font-size: 1.15rem;
     margin: 0;
@@ -17,7 +17,7 @@
 /************************ PAGES STYLE ************************/
 /************************************************************/
 
-.pageDiary3 {
+.pageDiary4 {
     background-color: #fdf6e2;
     color: #333;
     box-sizing: border-box;
@@ -30,51 +30,51 @@
     user-select: none;
 }
 
-.pageDiary3 .page-content {
+.pageDiary4 .page-content {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.pageDiary3 .page-content h2 {
+.pageDiary4 .page-content h2 {
     margin: 10px 0;
 }
 
-.pageDiary3:hover {
+.pageDiary4:hover {
     cursor: grab;
 }
 
-.pageDiary3:active {
+.pageDiary4:active {
     cursor: grabbing;
 }
 
-.pageDiary3 .page-footer {
+.pageDiary4 .page-footer {
     margin-top: auto;
     margin-left: auto;
 }
 
-.pageDiary3.book-cover {
+.pageDiary4.book-cover {
     background-color: #6ce045;
     color: white;
 }
 
-.pageDiary3.book-cover.start .page-content {
+.pageDiary4.book-cover.start .page-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pageDiary3 .book-cover.start label {
+.pageDiary4 .book-cover.start label {
     margin-top: auto;
     font-size: .9rem;
 }
 
-.pageDiary3 .back-cover-text {
+.pageDiary4 .back-cover-text {
     text-align: center;
     margin-top: auto;
 }
 
-.pageDiary3 .img-coverContainer {
+.pageDiary4 .img-coverContainer {
     margin: auto 0;
     width: 100%;
     display: flex;
@@ -84,14 +84,14 @@
     pointer-events: none;
 }
 
-.pageDiary3 .img-cover {
+.pageDiary4 .img-cover {
     width: 75%;
     border-radius: 20px;
     border: #ffffff 2px solid;
     align-self: center;
 }
 
-.pageDiary3 .img-coverContainer::after {
+.pageDiary4 .img-coverContainer::after {
     content: '🤲🏻';
     font-size: 1.8rem;
     position: absolute;
@@ -99,7 +99,7 @@
     top: -10px;
 }
 
-.pageDiary3 .img-coverContainer::before {
+.pageDiary4 .img-coverContainer::before {
     content: '✨';
     font-size: 1.8rem;
     position: absolute;
@@ -107,13 +107,13 @@
     bottom: -10px;
 }
 
-.pageDiary3 .imgFirstPage {
+.pageDiary4 .imgFirstPage {
     align-self: center;
     width: 42%;
     border-radius: calc(100% / 2);
 }
 
-.pageDiary3 .end-cover img {
+.pageDiary4 .end-cover img {
     width: 100%;
     border-radius: 20px;
 }
