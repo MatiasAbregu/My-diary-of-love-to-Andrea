@@ -223,6 +223,77 @@ export const Diary3 = ({ setDiarySelected }) => {
                             <img src={images.FirstKiss} />
                         </div>
                     </Page>
+                    <Page number="16" pageClass={"pageDiary3 page-interior"}>
+                        <h3 style={{ textAlign: "center", margin: "15px 0" }}>
+                            <i>🤴🏻 ¡Y muchos besos más! 👸🏻</i>
+                        </h3>
+                        <div className='castle-frame kisses'>
+                            <img src={images.Kiss1} />
+                            <img src={images.Kiss2} />
+                            <img src={images.Kiss3} />
+                        </div>
+                    </Page>
+
+                    {/* CAPITULO 20 */}
+                    <Page title="Capítulo 21 ~ El segundo encuentro" number="17" pageClass={"pageDiary3 page-interior"}>
+                        <p>
+                            &emsp;Después de tan emotivo día de haberse visto, siguieron pasando los días y planificando hasta el próximo encuentro... Hasta que el día llego, el cuál parecía estar predestinado a suceder dado que todo se alineó ese día para que saliera bien...
+                        </p>
+                        <iframe src="https://www.youtube.com/embed/ZPyaxCiwOhU" frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" className='secondMeet' allowfullscreen></iframe>
+                        <h3 style={{ textAlign: "center", margin: "10px 0" }}>
+                            <i>🤴🏻 (Te dejo este detallito para acompañar este capítulo) 👸🏻</i>
+                        </h3>
+                    </Page>
+                    <Page number="18" pageClass={"pageDiary3 page-interior"}>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp;Todo comenzó pareciendo que iba a salir mal, no se sabía si el hermano o los padres llevaría a la princesa Andrea, que además, tenía que ir a la escuela pero le exigían que hiciera rápido sus cosas... Lo cuál le preguntó al príncipe Matías "¿Qué que harían?"... <br />
+                            &emsp;Matías le preguntó a Andrea, con un poco de dudas en su corazón, si ella quería verlo, a lo cuál ella le dijo que sí, pidió por favor que intentarán; Matías no pudo negarse a esta petición y con determinación en su corazón allá fue. Pues resulta que fue el hermano quién llevo a Andrea a la escuela y que ese día, pudieron verse y pasaron varios momentos juntos lindos; entre ellos la famosa "Alba", hija adoptiva de ambos, ¡Pudo ver a su madre y a su padre unidos al fin nuevamente! <br />
+                            &emsp; Y todo gracias a que al final, la había llevado el hermano cruel de la príncesa Andrea junto a su adorable abuela, la tan famosa "Mercedes" y la esperaron pese a la prisa que el hermano tenía ese día, además de que el futuro impedimento "Elías" los había dejado estar juntos...
+                        </p>
+                    </Page>
+                    <Page number="19" pageClass={"pageDiary3 page-interior"}>
+                        <h3 style={{ textAlign: "center", margin: "10px 0" }}>
+                            <i>🤴🏻 ¡A continuacón, los bellos y divertidos recuerdos por favor! 👸🏻</i>
+                        </h3>
+                        <div className='castle-frame secondMeetAlbum'>
+                            <img src={images.Alba} />
+                            <img src={images.KissSM1} />
+                            <img src={images.KissSM2} />
+                            <img src={images.TogetherSM} />
+                        </div>
+                    </Page>
+                    {/* CAPITULO 20 */}
+                    <Page title="Capítulo 21 ~ El último encuentro (?)" number="20" pageClass={"pageDiary3 page-interior"}>
+                        <p>
+                            &emsp;¿Quién diría que este sería el último encuentro que tuvieron Matías y Andrea (porque sí, el narrador viene del futuro)? Pues veamos como resulto pero antes, el video que acompañará a este capítulo final...
+                        </p>
+                        <iframe src="https://www.youtube.com/embed/_-i67FijpLk?" frameborder="0" allow="autoplay; encrypted-media;" referrerpolicy="strict-origin-when-cross-origin" className='secondMeet' allowfullscreen></iframe>
+                        <h3 style={{ textAlign: "center", margin: "10px 0" }}>
+                            <i>🤴🏻 Con mucho amor, del príncipe... 👸🏻</i>
+                        </h3>
+                    </Page>
+                    <Page number="18" pageClass={"pageDiary3 page-interior"}>
+                        <p style={{ marginTop: "10px" }}>
+                            &emsp; Este encuentro si bien tuvo sus momentos lindos, dió por resultado todas cosas feas... Resulta que el enano con pelada brillante se enojó con el príncipe Matías porque no dejaba a la princesa Andrea "concentrarse" (un viejo celoso básicamente) por lo que tomó la medida de que Matías no podría ir más... Lo cuál haría que a partir desde ese momento no podría ir más a la escuela... ¡Pero hey! No venimos a contar las cosas malas ¿No? Venimos a narrar lo bonito de esta historia de amor. Pues, ese día también hubo fotos y hubo algún que otro momento candente pero lo más importante es que... Pese a que salieran las cosas mal, se pudieron ver ambos y demostró algo todo esto...
+                        </p>
+                        <h3 style={{ textAlign: "center", margin: "10px 0" }}>
+                            <i>Que el amor, es más fuerte que la adversidad... ❤️‍🩹</i>
+                        </h3>
+                        <p >
+                            &emsp; Por lo que, da igual cuantas adversidades se encuentre esta pareja en el futuro... Siempre pero siempre, podrán superarlas porque desde mayo, han demostrado que se puede; que para ellos nada es IMPOSIBLE.
+                        </p>
+                    </Page>
+                    <Page number="19" pageClass={"pageDiary3 page-interior"}>
+                        <h3 style={{ textAlign: "center", margin: "10px 0" }}>
+                            <i style={{ marginBottom: "0" }}>🤴🏻 ¡Feliz 3 meses Andrea! Con cariño de tu príncipe, Matías 👸🏻</i>
+                            <p style={{ fontSize: ".9rem", margin: "0px 0", padding: "0px", justifySelf: "flex-start" }}><br /> PD: Te cuidaré, no importa que... Mi bella... PRINCESA</p>
+                        </h3>
+                        <div className='castle-frame lastMeetAlbum'>
+                            <img src={images.LastMeet1} />
+                            <img src={images.LastMeet2} />
+                            <img src={images.LastMeet3} />
+                        </div>
+                    </Page>
 
                     <Page title="Continuará..." number="21" pageClass={"pageDiary3 page-interior"}>
                     </Page>
@@ -233,8 +304,7 @@ export const Diary3 = ({ setDiarySelected }) => {
                     </Page>
                     <Page isCover={true} pageClass={"pageDiary3 book-cover"}>
                         <div className='end-cover'>
-                            <img src={""} />
-                            <img src={""} />
+                            <img src={images.Backcover} />
                         </div>
                     </Page>
                 </HTMLPageFlip>
